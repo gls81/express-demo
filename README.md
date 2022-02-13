@@ -42,6 +42,7 @@ SOURCE /config/express-demo.sql;
 exit
 ```
 
+```bash
+npm start
+```
 
-
-git clone the reposotry
