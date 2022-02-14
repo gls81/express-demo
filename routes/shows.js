@@ -9,10 +9,10 @@ router.get('/', function(req, res, next) {
  
         if(err) {
             req.flash('error', err);
-            // render to views/books/index.ejs
+            // render to views/shows.ejs
             res.render('shows',{data:''});   
         } else {
-            // render to views/books/index.ejs
+            // render to  views/shows.ejs
             res.render('shows',{data:rows});
         }
     });
@@ -38,7 +38,7 @@ router.get('/detail/(:id)', function(req, res, next) {
       if (err) {
           // set flash message
           req.flash('error', err)
-          // redirect to books page
+          // redirect to shows page
           res.redirect('/shows')
       } else {
           // redirect to show details page
