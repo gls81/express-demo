@@ -3,7 +3,13 @@ Basic CRUD express js demo
 
 ## Setup
 
-Instructions onhow to setup a Linux Ubuntu 20.04 sever to run this.
+If wanting to run this demo on sci-project please refer to the intructions posted by Terry and Dave.
+
+
+
+Instructions on how to setup a Linux Ubuntu 20.04 sever to run this.
+
+
 
 ### Install Node.js v16
 
